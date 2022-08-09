@@ -4,7 +4,8 @@ const String weatherBox = 'weather_box';
 const String weatherModelKey = 'weather_model_key';
 const String dateKey = 'date_key';
 const String dateBox = 'date_box';
-
+  Color textColor1 = const Color(0xff25272E);
+   Color textColor2 = const Color.fromRGBO(203, 203, 203, 1);
 const scaffoldWeatherGradient = LinearGradient(colors: [Color(0xffFEF7FF), Color(0xffFCEBFF)]);
 const textWeatherGradient =
     LinearGradient(colors: [Color(0xffFFFFFF), Color(0xffD2C4FF)], transform: GradientRotation(45));
