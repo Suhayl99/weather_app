@@ -1,12 +1,8 @@
-
 import 'package:flutter/material.dart';
-import 'package:html/parser.dart';
-import 'package:http/http.dart';
-import 'package:weather_app/hive_utils.dart';
 import 'package:weather_app/services/weather_service.dart';
 
-import '../constans.dart';
-import '../weather_model.dart';
+import '../models/weather_model.dart';
+
 
 class WeatherProvider extends ChangeNotifier{
  

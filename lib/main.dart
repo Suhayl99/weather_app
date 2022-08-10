@@ -1,16 +1,9 @@
-import 'dart:developer';
-import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import 'package:weather_app/constans.dart';
-import 'package:html/parser.dart';
-import 'package:http/http.dart';
-import 'package:weather_app/hive_utils.dart';
-import 'package:weather_app/home_page.dart';
+import 'package:weather_app/screen/home_page.dart';
 import 'package:weather_app/provider/provider.dart';
-import 'package:weather_app/weather_model.dart';
+import 'models/weather_model.dart';
 
 void main() async {
   await Hive.initFlutter();

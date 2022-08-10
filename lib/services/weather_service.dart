@@ -1,10 +1,9 @@
 import 'package:html/parser.dart';
 import 'package:http/http.dart';
-import 'package:weather_app/hive_utils.dart';
+import '../models/weather_model.dart';
 
-import '../weather_model.dart';
 
-class WeatherService with HiveUtil {
+class WeatherService {
   static Future<WatherModel> getWeatherInfo(String value) async{
          String date = '';
   WatherModel? weatherModel = WatherModel();
